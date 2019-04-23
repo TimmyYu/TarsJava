@@ -14,6 +14,13 @@ demo工程参考[demo工程](https://github.com/Tencent/Tars/tree/master/java/ex
     <properties>
         <spring-boot.version>2.0.3.RELEASE</spring-boot.version>
     </properties>
+<!--  If you need http, you need to  import  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${springboot.version}</version>
+        </dependency>
+<!--   end  -->
 
     <dependencyManagement>
         <dependencies>
